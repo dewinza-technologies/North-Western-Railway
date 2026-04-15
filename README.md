@@ -32,5 +32,3 @@ This system allows railway officials to create, track, and update project progre
 - JWT Authentication
 
 ---
-
-## 📂 Project Structure
