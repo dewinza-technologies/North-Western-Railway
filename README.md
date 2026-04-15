@@ -1,16 +1,36 @@
-# React + Vite
+# 🚆 North Western Railway - Project Monitoring System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application designed to manage and monitor railway development projects efficiently.  
+This system allows railway officials to create, track, and update project progress in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+- 🔐 Secure Login System (JWT आधारित)
+- 📊 Dashboard with project statistics
+- ➕ Create new railway projects
+- 📁 View all projects in structured format
+- 🔄 Real-time Status Update (Pending → Approved → Completed)
+- 📈 Progress Tracking (0% - 100%)
+- 📝 Remarks / Notes system
+- 🗑️ Delete project functionality
+- 👤 Profile & settings UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React.js (Vite)
+- Tailwind CSS
+- React Router
+
+### Backend
+- Node.js
+- Express.js
+- JWT Authentication
+
+---
+
+## 📂 Project Structure
